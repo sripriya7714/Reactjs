@@ -1,0 +1,39 @@
+.modalcheck{
+padding: 1em;
+max-width: 50ch;
+top: 220px;
+left: -150px;
+width: 350px;
+height: 300px;
+border: 1px solid #707070;
+border-radius: 2%;
+opacity: 1;
+background-color: #FFFFFF;
+}
+.user-icon {
+    background-color: white;
+    width: 80px;
+    height: 80px;
+    margin-left: 130px;
+    border-radius: 50%;
+    border: 1px solid #616569;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:lightgray;
+    border:none;
+    }
+.skipbutton{
+    border-radius: 28px;
+    width: 120px;
+    border-color: #F37221;
+    color:#F37221;
+    background-color: white;
+}
+.Addmoneybutton{
+    background: #F37221;
+    border-radius: 28px;
+    width: 120px;
+    color:#FFFFFF;
+}
+

@@ -1,38 +1,109 @@
-.App {
-  text-align: center;
+body { 
+  overflow-y: hidden;
+   /* Hide vertical scrollbar */ 
+   overflow-x: hidden; /* Hide horizontal scrollbar */ 
+}
+.image {
+  top: 20px;
+  left: 134px;
+  width: 100px;
+  height: 50px;
+  opacity: 1;
+}
+.sidenav{
+  /* position: relative;
+    bottom: 25px;
+    width: 273px;
+    height:1264px; */
+  top: -2.4697265625px;
+  left: -1px;
+  width: 150px;
+  height: 800px; 
+  background-color:blanchedalmond;
+  line-height: 33pt;
+  color:white;
+  
+  /* / UI Properties  */
+  /* background: transparent url('img/bank-banking-change-36104.png') 0% 0% no-repeat padding-box;  */
+ 
+   box-shadow: 0px 3px 6px #00000029;
+  opacity: 1;
+  backdrop-filter: blur(0px);
+  -webkit-backdrop-filter: blur(0px); 
+}
+ul{
+  list-style-type: none;
+  
+}
+ul li a{
+  text-decoration: none;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+.bat{
+  background: #F37221;
+  border-radius: 28px;
+  width: 150px;
+ }
+ .side{
+  top: 122px;
+left: 0px;
+width: 300px;
+height: 60px;
+/* UI Properties
+background: #2A3477 0% 0% no-repeat padding-box; */
+border-radius: 100px;
+opacity: 1;
+ }
+ .card{
+  width: 420px;
+  height: 170px !important;
+ }
+.Euro {
+  margin-left: 30px;
+} 
+ .dollar{
+  margin-left:30px;
+  position: absolute;
+  bottom: 10px;
+ }
+ .dollarbtn{
+  margin-left:290px;
+  position: absolute;
+  bottom: 22px;
+  border-radius: 28px;
+  width: 110px;
+background-color: green;
+ }
+ .d-flex{
+  margin-top: -39px;
+   }
+ .fax{
+  display:flex
+ }
+ .sidenav  li a:hover {
+  background-color: rgb(0, 0, 0) !important;
+  border-top-left-radius:50px;
+
+  border-bottom-left-radius:50px;
+}
+.accounts{
+  border-radius:28px;
+}
+.plus{
+  margin:50px 0px 0px 200px !important;
+}
+.Euro1{
+  margin-left: 30px;
+}
+.circle{
+  margin:50px 0px 0px 280px !important;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
+
+
+
+
